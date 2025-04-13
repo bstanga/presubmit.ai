@@ -3,7 +3,7 @@ import type { Metadata, Viewport } from "next";
 import { Manrope } from "next/font/google";
 
 export const metadata: Metadata = {
-  title: "Presubmit - AI Code Reviewer",
+  title: "Presubmit - Open Source AI Code Reviewer",
   description: "Supercharge your code reviews with AI. Get instant, actionable feedback on your pull requests with Presubmit's intelligent and context-aware AI reviewer.",
   keywords: ["LLM", "code review", "AI code review", "GitHub code reviewer", "automated code review", "pull request review", "code quality", "developer tools", "open source", "open-source", "oss"],
   authors: [{ name: "Presubmit" }],
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://presubmit.ai",
-    title: "Presubmit - AI Code Reviewer",
+    title: "Presubmit - Open Source AI Code Reviewer",
     description: "Instant, actionable feedback on your pull requests with Presubmit's intelligent and context-aware AI reviewer.",
     siteName: "Presubmit",
     images: [
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Presubmit - AI Code Reviewer",
+    title: "Presubmit - Open Source AI Code Reviewer",
     description: "Instant, actionable feedback on your pull requests with Presubmit's intelligent and context-aware AI reviewer.",
     creator: "@presubmitai",
     images: ["/images/twitter-image.png"]
