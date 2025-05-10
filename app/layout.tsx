@@ -1,6 +1,7 @@
 import './globals.css';
 import type { Metadata, Viewport } from "next";
 import { Manrope } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next"
 
 export const metadata: Metadata = {
   title: "Presubmit - Open Source AI Code Reviewer",
@@ -62,6 +63,7 @@ export default function RootLayout({
     >
       <body className="min-h-[100dvh] bg-gray-50">
         {children}
+        <Analytics />
       </body>
     </html>
   );
